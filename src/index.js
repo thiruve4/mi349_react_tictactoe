@@ -53,6 +53,7 @@ function Square(props) {
   
       return (
         <div>
+          <div>Click on a tile to play! Refresh to restart game.</div>
           <div className="status">{status}</div>
           <div className="board-row">
             {this.renderSquare(0)}
